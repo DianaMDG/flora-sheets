@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f3f3f3;
+  font-family: Arial, sans-serif;
+}
+#sheets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.plant-sheet {
+  width: 210mm;
+  height: 148mm;
+  background: #fff;
+  box-shadow: 0 0 6px rgba(0,0,0,0.08);
+  margin: 12px;
+  padding: 24px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  page-break-after: always;
+}
+.plant-sheet img {
+  max-height: 110mm;
+  max-width: 60mm;
+  margin-right: 24px;
+  border-radius: 8px;
+}
+.plant-details {
+  flex: 1;
+}
+.plant-details h2 {
+  margin-top: 0;
+  font-size: 2em;
+  color: #226b2f;
+}
+.plant-details p {
+  margin: 0.5em 0;
+}
+@media print {
+  body {
+    background: none;
+  }
+  #sheets {
+    display: block;
+  }
+  .plant-sheet {
+    margin: 0;
+    box-shadow: none;
+    page-break-after: always;
+  }
+}

@@ -1,7 +1,7 @@
 [
   {
     "name": "Rosa chinensis",
-    "image": "images/rosa-chinensis.jpg",
+    "image": "pictures/rosa-chinensis.jpg",
     "family": "Rosaceae",
     "description": "A species of rose native to Southwest China, celebrated for its beautiful blooms.",
     "habitat": "Gardens, parks, wild in China",
@@ -9,7 +9,7 @@
   },
   {
     "name": "Lavandula angustifolia",
-    "image": "images/lavandula-angustifolia.jpg",
+    "image": "pictures/lavandula-angustifolia.jpg",
     "family": "Lamiaceae",
     "description": "Commonly known as English lavender, prized for its fragrance and essential oils.",
     "habitat": "Mediterranean region",
@@ -17,7 +17,7 @@
   },
   {
     "name": "Aloe vera",
-    "image": "images/aloe-vera.jpg",
+    "image": "pictures/aloe-vera.jpg",
     "family": "Asphodelaceae",
     "description": "Succulent plant species used for its soothing gel.",
     "habitat": "Tropical, semi-tropical regions",

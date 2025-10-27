@@ -28,15 +28,21 @@ body {
   margin-right: 24px;
   border-radius: 8px;
 }
-.plant-sheet details {
-  flex: 1;
-}
-.plant-sheet h2 {
+.plant-firstLine h2 {
   margin-top: 0;
   font-size: 2em;
   color: #226b2f;
 }
-.plant-sheet p {
+
+.plant-details {
+  flex: 1;
+}
+.plant-details h2 {
+  margin-top: 0;
+  font-size: 2em;
+  color: #226b2f;
+}
+.plant-details p {
   margin: 0.5em 0;
 }
 @media print {

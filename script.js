@@ -7,7 +7,7 @@ fetch('plants.json')
       sheet.className = 'plant-sheet';
 
       const firstLine = document.createElement('div');
-      firstLine.className = 'plant-firstLine';
+      firstLine.className = 'plant-firstLine';    /*Classe firstLine*/ 
       firstLine.innerHTML = `
         <h2>${plant.nameCommon}</h2>
         <h3>${plant.nameScientific}</h3>
@@ -18,7 +18,7 @@ fetch('plants.json')
       img.alt = plant.nameCommon;
 
       const details = document.createElement('div');
-      details.className = 'plant-details';
+      details.className = 'plant-details';        /*Classe details*/ 
       details.innerHTML = `
         <h2>${plant.nameCommon}</h2>
         <p><strong>Family:</strong> ${plant.nameScientific}</p>

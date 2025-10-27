@@ -13,7 +13,7 @@ fetch('plants.json')
       const details = document.createElement('div');
       details.className = 'plant-details';
       details.innerHTML = `
-        <h2>${plant.name}</h2>
+        <h2>${plant.name-common}</h2>
         <p><strong>Family:</strong> ${plant.family}</p>
         <p><strong>Description:</strong> ${plant.description}</p>
         <p><strong>Habitat:</strong> ${plant.habitat}</p>

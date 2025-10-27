@@ -28,6 +28,7 @@ fetch('plants.json')
         <p><strong>Uses:</strong> ${plant.uses}</p>
       `;
 
+      sheet.appendChild(firstLine);
       sheet.appendChild(img);
       sheet.appendChild(details);
       sheetsContainer.appendChild(sheet);

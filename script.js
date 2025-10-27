@@ -6,6 +6,13 @@ fetch('plants.json')
       const sheet = document.createElement('div');
       sheet.className = 'plant-sheet';
 
+      const firstLine = document.createElement('div');
+      firstLine.className = 'plant-firstLine';
+      firstLine.innerHTML = `
+        <h2>${plant.nameCommon}</h2>
+        <h3>${plant.nameScientific}</h3>
+      `;
+
       const img = document.createElement('img');
       img.src = plant.imageWhole;
       img.alt = plant.nameCommon;

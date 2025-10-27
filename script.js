@@ -8,7 +8,7 @@ fetch('plants.json')
 
       const img = document.createElement('img');
       img.src = plant.image;
-      img.alt = plant.name;
+      img.alt = plant.name-common;
 
       const details = document.createElement('div');
       details.className = 'plant-details';

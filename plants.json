@@ -1,6 +1,6 @@
 [
   {
-    "name-common": "Rosa chinensis",
+    "nameCommon": "Rosa chinensis",
     "image": "pictures/rosa-chinensis.jpg",
     "family": "Rosaceae",
     "description": "A species of rose native to Southwest China, celebrated for its beautiful blooms.",
@@ -8,7 +8,7 @@
     "uses": "Ornamental, medicinal"
   },
   {
-    "name-common": "Lavandula angustifolia",
+    "nameCommon": "Lavandula angustifolia",
     "image": "pictures/lavandula-angustifolia.jpg",
     "family": "Lamiaceae",
     "description": "Commonly known as English lavender, prized for its fragrance and essential oils.",
@@ -16,7 +16,7 @@
     "uses": "Essential oil, culinary, ornamental"
   },
   {
-    "name-common": "Aloe vera",
+    "nameCommon": "Aloe vera",
     "image": "pictures/aloe-vera.jpg",
     "family": "Asphodelaceae",
     "description": "Succulent plant species used for its soothing gel.",

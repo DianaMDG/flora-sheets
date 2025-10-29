@@ -47,7 +47,7 @@ body {
 .speciesNames {
   border-bottom: 2px solid black;
   border-left: 2px solid black;  
-  width: 60%; 
+  width: 70%; 
   height: 100%; 
   display: inline-block;
   box-sizing: border-box;   /* include borders in the mm sizes */

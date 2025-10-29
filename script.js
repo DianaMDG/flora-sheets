@@ -31,7 +31,7 @@ fetch('plants.json')
       while (photoList.length < 4) photoList.push(''); // ensure 4 items
 
       const photoLabelsList = (plant.photoLabels).slice(1, 5);
-      while (photoLabelsList.length < 4) photoList.push(''); // ensure 4 items
+      while (photoLabelsList.length < 4) photoLabelsList.push(''); // ensure 4 items
 
       photos.innerHTML = `
         <table class="photos-table">

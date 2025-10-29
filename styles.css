@@ -62,7 +62,7 @@ body {
 .photos-table {
   border-collapse: collapse; 
   width: 100%; 
-  height: 110mm;
+  height: 118mm;
   table-layout: fixed; 
 }
 .main-photo-cell, .thumb-photo-cell {
@@ -75,7 +75,7 @@ body {
   padding: 5px;
 }
 .main-photo-cell { 
-  height:110mm; 
+  height:118mm; 
   width:auto; 
 }
 .thumb-photo-cell { 

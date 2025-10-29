@@ -52,6 +52,7 @@ body {
 .scientificName {
   text-align: right; 
   font-size:30px;
+  font-style: italic;
 }
 .plant-photos {
   flex: 1;

@@ -1,0 +1,12 @@
+{
+    "nameCommon": "",
+    "nameScientific": "",
+    "family": "",
+    "imageWhole": ".jpg",
+    "photos": [
+      ".jpg"
+    ],
+    "photoLabels": [
+      ""
+    ]
+  },

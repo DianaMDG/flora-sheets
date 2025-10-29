@@ -1,62 +1,56 @@
 [
   {
-    "nameCommon": "",
-    "nameScientific": "",
-    "family": "",
-    "imageWhole": ".jpg",
+    "nameCommon": "Pinheiro-manso",
+    "nameScientific": "Pinus pinea",
+    "family": "Pinaceae",
+    "imageWhole": "images/Plantae/Tree/Pinus pinea/tree.png",
     "photos": [
-      ".jpg"
-    ],
-    "photoLabels": [
-      ""
-    ]
-  },
-  {
-    "nameCommon": "Rosa chinensis",
-    "nameScientific": "Rosa chinensis",
-    "family": "Rosaceae",
-    "imageWhole": "pictures/rosa-chinensis.jpg",
-    "photos": [
-      "pictures/rosa-chinensis-1.jpg",
-      "pictures/rosa-chinensis-2.jpg",
-      "pictures/rosa-chinensis-3.jpg"
+      "images/Plantae/Tree/Pinus pinea/flower.jpg",
+      "images/Plantae/Tree/Pinus pinea/leaves.jpg",
+      "images/Plantae/Tree/Pinus pinea/bark.jpg",
+      "images/Plantae/Tree/Pinus pinea/fruit.jpg"
     ],
     "photoLabels": [
       "Blooming flower",
-      "Close-up of petals",
-      "Full plant in garden"
+      "Leaves close-up",
+      "Bark texture",
+      "Fruit/seed"
     ]
   },
   {
-    "nameCommon": "Lavandula angustifolia",
-    "nameScientific": "Lavandula angustifolia",
-    "family": "Lamiaceae",
-    "imageWhole": "pictures/lavandula-angustifolia.jpg",
+    "nameCommon": "Pinheiro-bravo",
+    "nameScientific": "Pinus pinastra",
+    "family": "Pinaceae",
+    "imageWhole": "images/Plantae/Tree/Pinus pinastra/tree.jpg",
     "photos": [
-      "pictures/rosa-chinensis-1.jpg",
-      "pictures/rosa-chinensis-2.jpg",
-      "pictures/rosa-chinensis-3.jpg"
+      "images/Plantae/Tree/Pinus pinastra/flower.jpg",
+      "images/Plantae/Tree/Pinus pinastra/leaves.jpg",
+      "images/Plantae/Tree/Pinus pinastra/bark.jpg",
+      "images/Plantae/Tree/Pinus pinastra/fruit.jpg"
     ],
     "photoLabels": [
       "Blooming flower",
-      "Close-up of petals",
-      "Full plant in garden"
+      "Leaves close-up",
+      "Bark texture",
+      "Fruit/seed"
     ]
   },
   {
-    "nameCommon": "Aloe vera",
-    "nameScientific": "Aloe vera",
-    "family": "Asphodelaceae",
-    "imageWhole": "pictures/aloe-vera.jpg",
+    "nameCommon": "Teste",
+    "nameScientific": "Nome de teste",
+    "family": "Pinaceae",
+    "imageWhole": "images/rosa-chinensis.jpg",
     "photos": [
-      "pictures/rosa-chinensis-1.jpg",
-      "pictures/rosa-chinensis-2.jpg",
-      "pictures/rosa-chinensis-3.jpg"
+      "images/aloe-vera.jpg",
+      "images/aloe-vera.jpg",
+      "images/aloe-vera.jpg",
+      "images/aloe-vera.jpg"
     ],
     "photoLabels": [
       "Blooming flower",
-      "Close-up of petals",
-      "Full plant in garden"
+      "Leaves close-up",
+      "Bark texture",
+      "Fruit/seed"
     ]
   }
 ]

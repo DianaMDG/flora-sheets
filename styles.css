@@ -54,7 +54,7 @@ body {
 }
 .commonName {
   padding-left: 5px;
-  font-size:60px;
+  font-size: calc(40px, 60px, 60px);
   box-sizing: border-box;   /* include borders in the mm sizes */
 }
 .scientificName {

@@ -4,9 +4,16 @@
     "nameScientific": "Rosa chinensis",
     "imageWhole": "pictures/rosa-chinensis.jpg",
     "family": "Rosaceae",
-    "description": "A species of rose native to Southwest China, celebrated for its beautiful blooms.",
-    "habitat": "Gardens, parks, wild in China",
-    "uses": "Ornamental, medicinal"
+    "photos": [
+      "pictures/rosa-chinensis-1.jpg",
+      "pictures/rosa-chinensis-2.jpg",
+      "pictures/rosa-chinensis-3.jpg"
+    ],
+    "photoLabels": [
+      "Blooming flower",
+      "Close-up of petals",
+      "Full plant in garden"
+    ]
   },
   {
     "nameCommon": "Lavandula angustifolia",

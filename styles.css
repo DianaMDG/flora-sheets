@@ -75,14 +75,14 @@ body {
   /*background:#e8f5e9; */
   height:108mm; 
   width:auto; 
-  padding: 0;
+  padding: 5px;
 }
 .thumb-photo-cell { 
   border: 1px solid #000; 
   /*background:#f1f8e9;*/
   width: 54mm; 
   height:54mm;  
-  padding: 0;
+  padding: 5px;
 }
 .main-photo, .thumb-photo { 
   display: block;

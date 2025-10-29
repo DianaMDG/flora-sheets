@@ -28,10 +28,10 @@ fetch('plants.json')
       // choose main image and up to 4 more images
       const wholeSpecimen = plant.imageWhole || (plant.photos && plant.photos[0]) || '';
       const photoList = (plant.photos).slice(1, 5);
-      while (photoList.length < 4) others.push(''); // ensure 4 items
+      while (photoList.length < 4) photoList.push(''); // ensure 4 items
 
       const photoLabelsList = (plant.photoLabels).slice(1, 5);
-      while (photoLabelsList.length < 4) others.push(''); // ensure 4 items
+      while (photoLabelsList.length < 4) photoList.push(''); // ensure 4 items
 
       photos.innerHTML = `
         <table class="photos-table">

@@ -27,6 +27,7 @@ body {
 .speciesID {
   height: 28mm;
   display:flex;
+  box-sizing: border-box;   /* include borders in the mm sizes */
 }
 .holeSquare {
   border-bottom: 2px solid black; 
@@ -34,12 +35,14 @@ body {
   width: 30mm; 
   height: 100%; 
   display: inline-block;
+  box-sizing: border-box;   /* include borders in the mm sizes */
 }
 .logos{
   /*width: auto; */
   flex: 1;
   height: 100%;
   display: inline-block;
+  box-sizing: border-box;   /* include borders in the mm sizes */
 }
 .speciesNames {
   border-bottom: 2px solid black;
@@ -47,16 +50,19 @@ body {
   width: 60%; 
   height: 100%; 
   display: inline-block;
+  box-sizing: border-box;   /* include borders in the mm sizes */
 }
 .commonName {
   padding-left: 5px;
   font-size:60px;
+  box-sizing: border-box;   /* include borders in the mm sizes */
 }
 .scientificName {
   padding-right: 5px;
   text-align: right; 
   font-size:30px;
   font-style: italic;
+  box-sizing: border-box;   /* include borders in the mm sizes */
 }
 .plant-photos {
   flex: 1;

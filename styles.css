@@ -24,15 +24,39 @@ body {
 }
 .speciesID {
   height: 28mm;
-  display:flex
+  display:flex;
 }
 .holeSquare {
   border-bottom: 2px solid black; 
   border-right: 2px solid black;
   width: 30mm; 
   height: 100%; 
-  display: inline-block
+  display: inline-block;
 }
+.logos{
+  width: 33%; 
+  height: 100%;
+  display: inline-block;
+}
+.speciesNames {
+  border-bottom: 2px solid black;
+  border-left: 2px solid black; 
+  padding-left: 5px; 
+  width: 60%; 
+  height: 100%; 
+  display: inline-block;
+}
+.commonName {
+  font-size:60px;
+}
+.scientificName {
+  text-align: right; 
+  font-size:30px;
+}
+
+
+
+
 .plant-sheet img {
   max-height: 110mm;
   max-width: 60mm;

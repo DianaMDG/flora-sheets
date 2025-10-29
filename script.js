@@ -10,10 +10,14 @@ fetch('plants.json')
       firstLine.className = 'speciesID';    /*Classe speciesID*/ 
       firstLine.innerHTML = `
         <div class=holeSquare> </div>
-        <h2>${plant.nameCommon}</h2>
-        <h3>${plant.nameScientific}</h3>
+        <div class=logos> </div>
+        <div class=speciesNames>
+            <div class=commonName>${plant.nameCommon}</div>
+            <div class=scientificName>${plant.nameScientific}</div>
+        </div>
       `;
 
+      
       const img = document.createElement('img');
       img.src = plant.imageWhole;
       img.alt = plant.nameCommon;

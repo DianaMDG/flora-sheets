@@ -80,8 +80,8 @@ body {
 .thumb-photo-cell { 
   border: 1px solid #000; 
   /*background:#f1f8e9;*/
-  width: 59.5mm; 
-  height:59.5mm;  
+  width: 59mm; 
+  height:59mm;  
   padding: 5px;
 }
 .main-photo, .thumb-photo { 

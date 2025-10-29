@@ -65,26 +65,22 @@ body {
   height: 120mm;
   table-layout: fixed; 
 }
-.photos-table td {
+.main-photo-cell, .thumb-photo-cell {
+  border: 1px solid #000; 
   /*padding: 0 !important;    /* remove global td padding for this table */
   box-sizing: border-box;   /* include borders in the mm sizes */
   /*display: flex;*/
   align-items: center;         /* vertical center */
   justify-content: center;     /* horizontal center */
+  padding: 5px;
 }
 .main-photo-cell { 
-  border: 1px solid #000; 
-  /*background:#e8f5e9; */
   height:120mm; 
   width:auto; 
-  padding: 5px;
 }
 .thumb-photo-cell { 
-  border: 1px solid #000; 
-  /*background:#f1f8e9;*/
-  width: 55mm; 
-  height:55mm;  
-  padding: 5px;
+  width: 50mm; 
+  height:50mm; 
 }
 .main-photo, .thumb-photo { 
   display: block;

@@ -10,15 +10,15 @@ body {
   justify-content: center;
 }
 .plant-sheet {
-  width: 210mm;
+  width: 100%;
   height: 148mm;
   background: #fff;
   box-shadow: none;
   margin: 0px;
   padding: 0px;
   /*box-sizing: ;*/
-  display: flex;
-  flex-direction: row;
+  display: block;
+  /*flex-direction: row;*/
   align-items: center;
   page-break-after: always;
 }
@@ -56,7 +56,7 @@ body {
 .plant-photos {
   flex: 1;
 }
-.photos-table {
+.plant-photos-table {
   border-collapse: collapse; 
   width: 100%; 
   height: 108mm; 

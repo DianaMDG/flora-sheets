@@ -16,14 +16,13 @@ fetch('plants.json')
             <div class=scientificName>${plant.nameScientific}</div>
         </div>
       `;
-
       
       const img = document.createElement('img');
       img.src = plant.imageWhole;
       img.alt = plant.nameCommon;
 
-      const details = document.createElement('div');
-      details.className = 'plant-details';        /*Classe details*/ 
+      const photos = document.createElement('div');
+      details.className = 'plant-photos';        /*Classe details*/ 
       details.innerHTML = `
         <h2>${plant.nameCommon}</h2>
         <p><strong>Family:</strong> ${plant.nameScientific}</p>
@@ -34,8 +33,8 @@ fetch('plants.json')
       `;
 
       sheet.appendChild(firstLine);
-      sheet.appendChild(img);
-      sheet.appendChild(details);
+      /*sheet.appendChild(img);*/
+      sheet.appendChild(photos);
       sheetsContainer.appendChild(sheet);
     });
   });

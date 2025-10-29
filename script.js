@@ -40,18 +40,18 @@ fetch('plants.json')
               <img class="main-photo"; src="${wholeSpecimen}" alt="${plant.nameCommon}" />
             </td>
             <td class="thumb-photo-cell">
-              <img class="thumb-photo"; src="${photoList[1]}" alt="${photoLabelsList[0]} photo2"  />
+              <img class="thumb-photo"; src="${photoList[0]}" alt="${photoLabelsList[0]} photo2"  />
             </td>
             <td class="thumb-photo-cell" >
-              <img class="thumb-photo"; src="${photoList[2]}" alt="${photoLabelsList[1]} photo3" />
+              <img class="thumb-photo"; src="${photoList[1]}" alt="${photoLabelsList[1]} photo3" />
             </td>
           </tr>
           <tr>
             <td class="thumb-photo-cell">
-              <img class="thumb-photo"; src="${photoList[3]}" alt="${photoLabelsList[2]} photo4"  />
+              <img class="thumb-photo"; src="${photoList[2]}" alt="${photoLabelsList[2]} photo4"  />
             </td>
             <td class="thumb-photo-cell">
-              <img class="thumb-photo"; src="${photoList[4]}" alt="${photoLabelsList[3]} photo5" />
+              <img class="thumb-photo"; src="${photoList[3]}" alt="${photoLabelsList[3]} photo5" />
             </td>
           </tr>
         </table>

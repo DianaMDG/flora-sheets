@@ -73,8 +73,8 @@ body {
 .thumb-photo-cell { 
   border: 1px solid #000; 
   background:#f1f8e9;
-  width: 48mm; 
-  height:48mm;  
+  width: 54mm; 
+  height:54mm;  
 }
 .main-photo { 
   object-fit: contain; 

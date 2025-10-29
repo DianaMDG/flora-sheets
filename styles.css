@@ -88,7 +88,7 @@ body {
 }
 .thumb-photo-cell { 
   width: 60mm; 
-  height:50%; 
+  height:60mm; 
 }
 .main-photo, .thumb-photo { 
   display: block;

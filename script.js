@@ -7,7 +7,7 @@ fetch('plants.json')
       sheet.className = 'plant-sheet';
 
       const firstLine = document.createElement('div');
-      firstLine.className = 'speciesID';    /*Classe speciesID*/ 
+      firstLine.className = 'speciesID';    /*Class speciesID*/ 
       firstLine.innerHTML = `
         <div class=holeSquare> </div>
         <div class=logos> </div>
@@ -33,9 +33,8 @@ fetch('plants.json')
       const photoLabelsList = (plant.photoLabels).slice(1, 5);
       while (photoLabelsList.length < 4) others.push(''); // ensure 4 items
 
-
       photos.innerHTML = `
-        <table style="width:100%">
+        <table class="photos-table">
           <tr>
             <td class="main-photo-cell"; rowspan="2" >
               <img class="main-photo"; src="${wholeSpecimen}" alt="${plant.nameCommon}" />

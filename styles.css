@@ -56,11 +56,15 @@ body {
 .plant-photos {
   flex: 1;
 }
-
+.photos-table {
+  border-collapse: collapse; 
+  width: 100%; 
+  height: 108mm; 
+}
 .main-photo-cell { 
   border: 1px solid #000; 
   background:#e8f5e9; 
-  height:108mm; 
+  height:100%; 
   width:auto; 
 }
 .thumb-photo-cell { 

@@ -26,6 +26,13 @@ body {
   height: 28mm;
   display:flex
 }
+.holeSquare {
+  border-bottom: 2px solid black; 
+  border-right: 2px solid black;
+  width: 30mm; 
+  height: 100%; 
+  display: inline-block
+}
 .plant-sheet img {
   max-height: 110mm;
   max-width: 60mm;

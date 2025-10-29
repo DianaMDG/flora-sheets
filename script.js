@@ -9,6 +9,7 @@ fetch('plants.json')
       const firstLine = document.createElement('div');
       firstLine.className = 'speciesID';    /*Classe speciesID*/ 
       firstLine.innerHTML = `
+        <div class=holeSquare> </div>
         <h2>${plant.nameCommon}</h2>
         <h3>${plant.nameScientific}</h3>
       `;

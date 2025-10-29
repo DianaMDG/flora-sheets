@@ -19,14 +19,14 @@
   },
   {
     "nameCommon": "Pinheiro-bravo",
-    "nameScientific": "Pinus pinastra",
+    "nameScientific": "Pinus pinaster",
     "family": "Pinaceae",
-    "imageWhole": "images/Plantae/Tree/Pinus pinastra/tree.jpg",
+    "imageWhole": "images/PlantaeTree/Pinus pinaster/tree.jpg",
     "photos": [
-      "images/Plantae/Tree/Pinus pinastra/flower.jpg",
-      "images/Plantae/Tree/Pinus pinastra/leaves.jpg",
-      "images/Plantae/Tree/Pinus pinastra/bark.jpg",
-      "images/Plantae/Tree/Pinus pinastra/fruit.jpg"
+      "images/Plantae/Tree/Pinus pinaster/flower.jpg",
+      "images/Plantae/Tree/Pinus pinaster/leaves.jpg",
+      "images/Plantae/Tree/Pinus pinaster/bark.jpg",
+      "images/Plantae/Tree/Pinus pinaster/fruit.jpg"
     ],
     "photoLabels": [
       "Blooming flower",

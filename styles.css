@@ -34,7 +34,8 @@ body {
   display: inline-block;
 }
 .logos{
-  width: 33%; 
+  /*width: auto; */
+  flex: 1;
   height: 100%;
   display: inline-block;
 }

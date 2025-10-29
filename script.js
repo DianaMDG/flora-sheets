@@ -7,7 +7,7 @@ fetch('plants.json')
       sheet.className = 'plant-sheet';
 
       const firstLine = document.createElement('div');
-      firstLine.className = 'plant-firstLine';    /*Classe firstLine*/ 
+      firstLine.className = 'speciesID';    /*Classe speciesID*/ 
       firstLine.innerHTML = `
         <h2>${plant.nameCommon}</h2>
         <h3>${plant.nameScientific}</h3>

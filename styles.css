@@ -13,14 +13,18 @@ body {
   width: 210mm;
   height: 148mm;
   background: #fff;
-  box-shadow: 0 0 6px rgba(0,0,0,0.08);
-  margin: 12px;
+  box-shadow: none;
+  margin: 0px;
   padding: 0px;
-  box-sizing: border-box;
+  /*box-sizing: ;*/
   display: flex;
   flex-direction: row;
   align-items: center;
   page-break-after: always;
+}
+.speciesID {
+  height: 28mm;
+  display:flex
 }
 .plant-sheet img {
   max-height: 110mm;

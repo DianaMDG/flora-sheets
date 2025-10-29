@@ -80,6 +80,8 @@ body {
   /*display: flex;*/
   align-items: center;         /* vertical center */
   justify-content: center;     /* horizontal center */
+  text-align: center;
+  vertical-align: middle; 
   padding: 5px;
 }
 .main-photo-cell { 

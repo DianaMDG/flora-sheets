@@ -66,7 +66,7 @@ body {
   table-layout: fixed; 
 }
 .photos-table td {
-  padding: 0 !important;    /* remove global td padding for this table */
+  /*padding: 0 !important;    /* remove global td padding for this table */
   box-sizing: border-box;   /* include borders in the mm sizes */
   vertical-align: top;
 }

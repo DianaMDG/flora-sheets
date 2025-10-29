@@ -62,31 +62,35 @@ body {
 .photos-table {
   border-collapse: collapse; 
   width: 100%; 
-  height: 108mm; 
+  height: 108mm;
+  table-layout: fixed; 
+}
+.photos-table td {
+  padding: 0 !important;    /* remove global td padding for this table */
+  box-sizing: border-box;   /* include borders in the mm sizes */
+  vertical-align: top;
 }
 .main-photo-cell { 
   border: 1px solid #000; 
-  background:#e8f5e9; 
+  /*background:#e8f5e9; */
   height:108mm; 
   width:auto; 
+  padding: 0;
 }
 .thumb-photo-cell { 
   border: 1px solid #000; 
-  background:#f1f8e9;
+  /*background:#f1f8e9;*/
   width: 54mm; 
   height:54mm;  
+  padding: 0;
 }
-.main-photo { 
-  object-fit: contain; 
-  display:block; 
-  width:100%; 
-  height:100%; 
-}
-.thumb-photo { 
-  object-fit: contain; 
-  display:block; 
-  width:100%; 
-  height:100%; 
+.main-photo, .thumb-photo { 
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;      /* show whole image, may letterbox */
+  object-position: center;  /* center the image in the cell */
+  background-color: #fff;   /* visible behind letterbox areas */
 }
 
 

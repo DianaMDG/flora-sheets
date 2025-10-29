@@ -1,9 +1,21 @@
 [
   {
+    "nameCommon": "",
+    "nameScientific": "",
+    "family": "",
+    "imageWhole": ".jpg",
+    "photos": [
+      ".jpg"
+    ],
+    "photoLabels": [
+      ""
+    ]
+  },
+  {
     "nameCommon": "Rosa chinensis",
     "nameScientific": "Rosa chinensis",
-    "imageWhole": "pictures/rosa-chinensis.jpg",
     "family": "Rosaceae",
+    "imageWhole": "pictures/rosa-chinensis.jpg",
     "photos": [
       "pictures/rosa-chinensis-1.jpg",
       "pictures/rosa-chinensis-2.jpg",
@@ -18,19 +30,33 @@
   {
     "nameCommon": "Lavandula angustifolia",
     "nameScientific": "Lavandula angustifolia",
-    "imageWhole": "pictures/lavandula-angustifolia.jpg",
     "family": "Lamiaceae",
-    "description": "Commonly known as English lavender, prized for its fragrance and essential oils.",
-    "habitat": "Mediterranean region",
-    "uses": "Essential oil, culinary, ornamental"
+    "imageWhole": "pictures/lavandula-angustifolia.jpg",
+    "photos": [
+      "pictures/rosa-chinensis-1.jpg",
+      "pictures/rosa-chinensis-2.jpg",
+      "pictures/rosa-chinensis-3.jpg"
+    ],
+    "photoLabels": [
+      "Blooming flower",
+      "Close-up of petals",
+      "Full plant in garden"
+    ]
   },
   {
     "nameCommon": "Aloe vera",
     "nameScientific": "Aloe vera",
-    "imageWhole": "pictures/aloe-vera.jpg",
     "family": "Asphodelaceae",
-    "description": "Succulent plant species used for its soothing gel.",
-    "habitat": "Tropical, semi-tropical regions",
-    "uses": "Medicinal, cosmetic"
+    "imageWhole": "pictures/aloe-vera.jpg",
+    "photos": [
+      "pictures/rosa-chinensis-1.jpg",
+      "pictures/rosa-chinensis-2.jpg",
+      "pictures/rosa-chinensis-3.jpg"
+    ],
+    "photoLabels": [
+      "Blooming flower",
+      "Close-up of petals",
+      "Full plant in garden"
+    ]
   }
 ]

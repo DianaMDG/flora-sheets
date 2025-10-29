@@ -68,7 +68,7 @@ body {
 .photos-table td {
   /*padding: 0 !important;    /* remove global td padding for this table */
   box-sizing: border-box;   /* include borders in the mm sizes */
-  display: flex;
+  /*display: flex;*/
   align-items: center;         /* vertical center */
   justify-content: center;     /* horizontal center */
 }
